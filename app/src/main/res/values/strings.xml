@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Data Mahasiswa</string>
+    <string name="create">Tambah Data Mahasiswa</string>
+    <string name="update">Update Data Mahasiswa</string>
+    <string name="read">Lihat Data Mahasiswa</string>
+    <string name="delete">Hapus Data Mahasiswa</string>
+    <string name="idMahasiswa">Nomor Induk Mahasiswa</string>
+    <string name="namaMahasiswa">Nama</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="jurusan">Jurusan</string>
+    <string name="nim">Nim :</string>
+    <string name="simpan">Simpan</string>
+</resources>

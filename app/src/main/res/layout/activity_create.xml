@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mobpro.viqi.sqlitetest.CreateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/titleId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nim"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editIdMahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/idMahasiswa"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/titleNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/namaMahasiswa"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNamaMahasiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/namaMahasiswa"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            android:id="@+id/titleFakultas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fakultas"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editFakultas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/fakultas"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            android:id="@+id/titleJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jurusan"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editJurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/jurusan"
+            android:inputType="textCapSentences" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:onClick="doSimpan"
+            android:text="@string/simpan"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
